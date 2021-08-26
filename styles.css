@@ -4,6 +4,10 @@ html {
 }
 .header {
   background-color: black;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+.head {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -21,10 +25,10 @@ html {
   color: rgb(246, 248, 91);
 }
 .daelan {
-  font-size: 4em;
   display: flex;
   justify-content: center;
-  padding: 2em;
+  font-size: 4em;
+  color: rgb(207, 33, 241);
 }
 .about-m {
   display: flex;
@@ -32,6 +36,7 @@ html {
   justify-content: center;
   line-height: 1.6;
   padding: 2em;
+  padding-top: 0.5em;
   font-size: 2em;
 }
 .what-know {
@@ -94,4 +99,13 @@ html {
 }
 .email:hover {
   max-width: 15%;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 3em;
+  color: Black;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
 }
