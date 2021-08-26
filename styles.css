@@ -10,35 +10,88 @@ html {
 }
 .headlink {
   text-decoration: none;
+  font-size: 2em;
   color: white;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
 }
 .headlink:hover {
   text-decoration: none;
+  font-weight: bolder;
   color: rgb(246, 248, 91);
+}
+.daelan {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 }
 .about-m {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   line-height: 1.6;
-  padding: 1em;
+  padding: 2em;
+  font-size: 2em;
+}
+.what-know {
+  display: flex;
+  justify-content: center;
+  line-height: 1.6;
+  font-size: 3em;
+}
+.know {
+  display: flex;
+  font-size: 2em;
+  line-height: 1.6;
+  padding: 2em;
+}
+.contact-me {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  line-height: 1.6;
+  padding: 2em;
+  padding-bottom: 1em;
 }
 .links {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: center;
+  padding-left: 5em;
 }
 .twitter {
   max-width: 10%;
+  padding: 3em;
 }
 .fb {
   max-width: 9%;
+  padding: 3em;
 }
 .linked {
   max-width: 9%;
+  padding: 3em;
 }
 .insta {
   max-width: 9%;
+  padding: 3em;
 }
 .email {
   max-width: 13%;
+  padding: 3em;
+}
+.twitter:hover {
+  max-width: 13%;
+}
+.fb:hover {
+  max-width: 12%;
+}
+.linked:hover {
+  max-width: 12%;
+}
+.insta:hover {
+  max-width: 12%;
+}
+.email:hover {
+  max-width: 15%;
 }
