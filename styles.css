@@ -22,3 +22,23 @@ html {
   line-height: 1.6;
   padding: 1em;
 }
+.links {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.twitter {
+  max-width: 10%;
+}
+.fb {
+  max-width: 9%;
+}
+.linked {
+  max-width: 9%;
+}
+.insta {
+  max-width: 9%;
+}
+.email {
+  max-width: 13%;
+}
