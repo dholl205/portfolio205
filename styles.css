@@ -1,0 +1,24 @@
+html {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.headlink {
+  text-decoration: none;
+  color: white;
+}
+.headlink:hover {
+  text-decoration: none;
+  color: rgb(246, 248, 91);
+}
+.about-m {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.6;
+  padding: 1em;
+}
