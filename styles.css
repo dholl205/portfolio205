@@ -4,7 +4,7 @@ html {
 }
 .header {
   background-color: black;
-  padding-top: 0.5em;
+  padding-top: 1em;
   padding-left: 1em;
 }
 .head {
@@ -22,7 +22,7 @@ html {
 .headlink:hover {
   text-decoration: none;
   font-weight: bolder;
-  color: rgb(246, 248, 91);
+  color: rgb(207, 33, 241);
 }
 .daelan {
   display: flex;
@@ -36,7 +36,7 @@ html {
   justify-content: center;
   line-height: 1.6;
   padding: 2em;
-  padding-top: 0.5em;
+  padding-top: 1.5em;
   font-size: 2em;
 }
 .what-know {
