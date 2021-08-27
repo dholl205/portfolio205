@@ -2,14 +2,16 @@ html {
   background-color: black;
   font-family: "Times New Roman", Times, serif;
   color: white;
+  padding-bottom: 7em;
 }
 .header {
   background-color: white;
-  padding-top: 0.5em;
+  padding-top: 0.25em;
   padding-left: 1em;
 }
 .head {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
 }
@@ -31,17 +33,31 @@ html {
   font-size: 4em;
   color: rgb(207, 33, 241);
 }
+.h {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: rgb(207, 33, 241);
+}
+.info {
+  font-size: 1.7em;
+  line-height: 2em;
+}
+.text {
+  font-size: 1.7em;
+  line-height: 2em;
+}
 .red {
   max-width: 40%;
   padding: 2em;
 }
 .redimg {
-  max-width: 30em;
-  border: 2px solid purple;
+  max-width: 29em;
+  border: 2px solid rgb(207, 33, 241);
 }
 .helpimg {
-  max-width: 30em;
-  border: 2px solid purple;
+  max-width: 29em;
+  border: 2px solid rgb(207, 33, 241);
 }
 .help {
   max-width: 40%;
@@ -70,9 +86,11 @@ html {
 }
 .gitpage:hover {
   max-width: 15em;
+  border: 2px solid rgb(207, 33, 241);
 }
 .git:hover {
   max-width: 6em;
+  border: 2px solid rgb(207, 33, 241);
 }
 .row2 {
   display: flex;
@@ -84,7 +102,7 @@ html {
 }
 .invpic {
   max-width: 29em;
-  border: 2px solid purple;
+  border: 2px solid rgb(207, 33, 241);
 }
 .rep {
   max-width: 13em;
@@ -93,4 +111,41 @@ html {
 }
 .inventory {
   max-width: 40%;
+}
+.mod1 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
+.module1 {
+  max-width: 29em;
+  border: 2px solid rgb(207, 33, 241);
+}
+.basic-crud {
+  max-width: 29em;
+  border: 2px solid rgb(207, 33, 241);
+}
+.per-crud {
+  max-width: 29em;
+  border: 2px solid rgb(207, 33, 241);
+}
+.persist {
+  max-width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.basic {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
+.crud {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.rep:hover {
+  max-width: 14em;
+  border: 2px solid rgb(207, 33, 241);
 }
