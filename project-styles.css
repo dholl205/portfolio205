@@ -1,0 +1,96 @@
+html {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.header {
+  background-color: white;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.headlink {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+.headlink:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(207, 33, 241);
+}
+.daelan {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  color: rgb(207, 33, 241);
+}
+.red {
+  max-width: 40%;
+  padding: 2em;
+}
+.redimg {
+  max-width: 30em;
+  border: 2px solid purple;
+}
+.helpimg {
+  max-width: 30em;
+  border: 2px solid purple;
+}
+.help {
+  max-width: 40%;
+  padding: 2em;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.git {
+  max-width: 5em;
+}
+.gitpage {
+  max-width: 13em;
+  padding-top: 0.5em;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 0.5em;
+}
+.gitpage:hover {
+  max-width: 15em;
+}
+.git:hover {
+  max-width: 6em;
+}
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+.invpic {
+  max-width: 29em;
+  border: 2px solid purple;
+}
+.rep {
+  max-width: 13em;
+  padding-left: 5em;
+  padding-right: 2em;
+}
+.inventory {
+  max-width: 40%;
+}
