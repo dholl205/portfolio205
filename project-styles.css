@@ -8,6 +8,7 @@ html {
   background-color: white;
   padding-top: 0.25em;
   padding-left: 1em;
+  max-height: 20em;
 }
 .head {
   display: flex;
@@ -52,12 +53,16 @@ html {
   padding: 2em;
 }
 .redimg {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .helpimg {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .help {
   max-width: 40%;
@@ -101,8 +106,10 @@ html {
   padding-top: 1em;
 }
 .invpic {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .rep {
   max-width: 13em;
@@ -118,16 +125,22 @@ html {
   max-width: 40%;
 }
 .module1 {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .basic-crud {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .per-crud {
-  max-width: 29em;
+  max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
+  display: flex;
+  justify-content: center;
 }
 .persist {
   max-width: 40%;
@@ -148,4 +161,53 @@ html {
 .rep:hover {
   max-width: 14em;
   border: 2px solid rgb(207, 33, 241);
+}
+.contact-me {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  line-height: 1.6;
+  padding: 2em;
+  padding-bottom: 1em;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5em;
+}
+.twitter {
+  max-width: 10%;
+  padding: 3em;
+}
+.fb {
+  max-width: 9%;
+  padding: 3em;
+}
+.linked {
+  max-width: 9%;
+  padding: 3em;
+}
+.insta {
+  max-width: 9%;
+  padding: 3em;
+}
+.email {
+  max-width: 13%;
+  padding: 3em;
+}
+.twitter:hover {
+  max-width: 13%;
+}
+.fb:hover {
+  max-width: 12%;
+}
+.linked:hover {
+  max-width: 12%;
+}
+.insta:hover {
+  max-width: 12%;
+}
+.email:hover {
+  max-width: 15%;
 }

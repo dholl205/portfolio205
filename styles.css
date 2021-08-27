@@ -6,6 +6,7 @@ html {
   background-color: black;
   padding-top: 1em;
   padding-left: 1em;
+  max-height: 20em;
 }
 .head {
   display: flex;
