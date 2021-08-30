@@ -76,26 +76,11 @@ html {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-.git {
-  max-width: 5em;
-}
-.gitpage {
-  max-width: 13em;
-  padding-top: 0.5em;
-}
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 0.5em;
-}
-.gitpage:hover {
-  max-width: 15em;
-  border: 2px solid rgb(207, 33, 241);
-}
-.git:hover {
-  max-width: 6em;
-  border: 2px solid rgb(207, 33, 241);
 }
 .row2 {
   display: flex;
@@ -110,14 +95,6 @@ html {
   border: 2px solid rgb(207, 33, 241);
   display: flex;
   justify-content: center;
-}
-.rep {
-  max-width: 13em;
-  padding-left: 5em;
-  padding-right: 2em;
-}
-.inventory {
-  max-width: 40%;
 }
 .mod1 {
   display: flex;
@@ -158,10 +135,6 @@ html {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.rep:hover {
-  max-width: 14em;
-  border: 2px solid rgb(207, 33, 241);
-}
 .contact-me {
   display: flex;
   justify-content: center;
@@ -195,6 +168,12 @@ html {
 .email {
   max-width: 13%;
   padding: 3em;
+}
+.git {
+  max-width: 17%;
+}
+.git:hover {
+  max-width: 20%;
 }
 .twitter:hover {
   max-width: 13%;
