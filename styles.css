@@ -127,9 +127,15 @@ html {
     padding-bottom: 2em;
   }
   .about-m {
-    font-size: 2em;
+    font-size: 1em;
   }
   .what-know {
+    font-size: 1em;
+  }
+  .projects {
+    font-size: 2em;
+  }
+  .contact-me {
     font-size: 2em;
   }
 }
