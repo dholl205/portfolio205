@@ -118,3 +118,18 @@ html {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
+@media screen and (max-width: 750px) {
+  .daelan {
+    font-size: 3em;
+  }
+  .head {
+    font-size: 0.5em;
+    padding-bottom: 2em;
+  }
+  .about-m {
+    font-size: 2em;
+  }
+  .what-know {
+    font-size: 2em;
+  }
+}
