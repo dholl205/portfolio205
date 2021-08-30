@@ -88,6 +88,12 @@ html {
   max-width: 13%;
   padding: 3em;
 }
+.git {
+  max-width: 17%;
+}
+.git:hover {
+  max-width: 20%;
+}
 .twitter:hover {
   max-width: 13%;
 }
