@@ -48,25 +48,15 @@ html {
   font-size: 1.7em;
   line-height: 2em;
 }
-.red {
+.card {
   max-width: 40%;
   padding: 2em;
 }
-.redimg {
+.images {
   max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
   display: flex;
   justify-content: center;
-}
-.helpimg {
-  max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
-  display: flex;
-  justify-content: center;
-}
-.help {
-  max-width: 40%;
-  padding: 2em;
 }
 .row1 {
   display: flex;
@@ -95,34 +85,10 @@ html {
   flex-wrap: wrap;
   max-width: 40%;
 }
-.invpic {
-  max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
-  display: flex;
-  justify-content: center;
-}
 .mod1 {
   display: flex;
   flex-wrap: wrap;
   max-width: 40%;
-}
-.module1 {
-  max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
-  display: flex;
-  justify-content: center;
-}
-.basic-crud {
-  max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
-  display: flex;
-  justify-content: center;
-}
-.per-crud {
-  max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
-  display: flex;
-  justify-content: center;
 }
 .persist {
   max-width: 40%;
@@ -194,4 +160,55 @@ html {
 }
 .email:hover {
   max-width: 15%;
+}
+@media screen and (max-width: 750px) {
+  .daelan {
+    font-size: 3em;
+  }
+  .head {
+    font-size: 0.5em;
+    padding-bottom: 2em;
+  }
+  .h {
+    font-size: 3em;
+  }
+  .info {
+    font-size: 1em;
+  }
+  .text {
+    font-size: 1em;
+  }
+  .rows {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .card {
+    max-width: 75%;
+    align-self: center;
+  }
+  twitter {
+    max-width: 13%;
+    padding: 3em;
+  }
+  .fb {
+    max-width: 12%;
+    padding: 3em;
+  }
+  .linked {
+    max-width: 12%;
+    padding: 3em;
+  }
+  .insta {
+    max-width: 12%;
+    padding: 3em;
+  }
+  .email {
+    max-width: 15%;
+    padding: 3em;
+  }
+  .git {
+    max-width: 20%;
+  }
 }
