@@ -90,6 +90,11 @@ html {
   padding-bottom: 2em;
   padding-top: 1em;
 }
+.inventory {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
 .invpic {
   max-width: 90%;
   border: 2px solid rgb(207, 33, 241);
