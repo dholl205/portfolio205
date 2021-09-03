@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daelan's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="project-styles.css" />
   </head>
   <body>
     <div class="header">
@@ -14,7 +15,7 @@
         <a class="headlink" href="#">About</a>
         <a class="headlink" href="#what know">What I Know</a>
         <a class="headlink" href="#contact">Contact Me</a>
-        <a href="projects.html" class="headlink">Projects</a>
+        <a href="#pj" class="headlink">Projects</a>
       </div>
     </div>
     <div class="about-m" id="about">
@@ -27,21 +28,135 @@
         get into a job, rather than just work with what I know.
       </p>
     </div>
-    <h2 class="what-know" id="what know">What I Know</h2>
     <div class="know">
-      <p>Python, Html, Css, git terminal commands</p>
+      <h2 class="what-know" id="what know">What I Know</h2>
+      <div class="i-know">
+        <img src="images/python.jpeg" alt="python" />
+        <img src="images/html.jpeg" alt="html" />
+        <img src="images/css.jpeg" alt="css" />
+        <img src="images/git.jpeg" alt="git" />
+      </div>
     </div>
-    <h2 class="projects"><a href="projects.html">Projects</a></h2>
-    <h1 class="contact-me" id="contact">Contact Me</h1>
-    <div class="links">
-      <p>
+    <div><h1 class="h">Projects</h1></div>
+    <p class="info">
+      At Base Camp Coding Academy in Water Valley, we have done some projects.
+      Some are terrific, whereas some crashed and burned. These are some of the
+      better projects that I have either worked on by myself, or with others.
+    </p>
+    <div class="row1 rows">
+      <div class="card">
+        <h2 class="h cardname">GOAT</h2>
+        <a href="https://github.com/dholl205/Red-the-GOAT" target="_blank">
+          <img
+            class="images"
+            src="images/red.png"
+            alt="pic of goat red website"
+        /></a>
+        <p class="text">
+          This project was about who we thought was the GOAT, Greatest Of All
+          Time. We completed this as a sign showing we know and understand basic
+          html and css.
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="h cardname">Foundation of Saving Animals</h2>
+        <a href="https://github.com/dholl205/charity-project" target="_blank">
+          <img
+            class="images"
+            src="images/animal.png"
+            alt="pic of charity project"
+        /></a>
+        <p class="text">
+          This project was to make a made up charity. We demonstrated how we
+          grew a little in css and html. In this project, we were not forced to
+          use multiple html pages, but for the sake of my mind, I did.
+        </p>
+      </div>
+    </div>
+    <div class="row2 rows">
+      <div class="card">
+        <h2 class="h cardname">Inventory Manager</h2>
+        <a
+          href="https://replit.com/@dholl205/inventory-management"
+          target="_blank"
+        >
+          <img
+            class="images"
+            src="images/inv.png "
+            alt="pic of management system"
+        /></a>
+        <p class="text">
+          This project was a personal project on replit. It helps the management
+          team with inventory. It keeps track of the item, quantity, any notes
+          someone put with it, and the date that it was last ordered.
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="h cardname">LOZ Great Plateau Fan Game</h2>
+        <a
+          href="https://replit.com/@BCCA2022/Unit-1-Unit-Project-BCCA2022-3#main.py"
+          target="_blank"
+        >
+          <img
+            class="images"
+            src="images/mod1.png"
+            alt="image of module 1 project"
+        /></a>
+        <p class="text">
+          This project was to let our directors know that we understand all that
+          we were taught upto that point. It was not required, but if you had
+          finished the rest of the module work the week before, you did the unit
+          project. This was a fun adventure based game that I helped on. Jacen
+          Barefoot and I worked hard on it, and in the end, it worked out fine.
+        </p>
+      </div>
+    </div>
+    <div class="crud rows">
+      <div class="card">
+        <h2 class="h cardname">Basic CRUD App</h2>
+        <a
+          href="https://replit.com/@BCCA2022/M6-ListP2Command-Line-CRUD-App-dholl205#main.py"
+          target="_blank"
+        >
+          <img
+            src="images/crudbasic.png"
+            alt="screenshot of basic crud"
+            class="images"
+        /></a>
+        <p class="text">
+          This was a new experience when we got there. I enjoyed it, and it did
+          help teach valuable skills. This is the very first CRUD app.
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="h cardname">Persistent CRUD App</h2>
+        <a
+          href="https://replit.com/@BCCA2022/M8-PersistencePersistent-CRUD-dholl205#README.md"
+          target="_blank"
+        >
+          <img
+            class="images"
+            src="images/per.png"
+            alt="screenshot of persistance crud"
+        /></a>
+        <p class="text">
+          This is another CRUD app that we had to finish. This one, however, is
+          fixed so that it will remember the password, username, website, and
+          whether or not it was a favorite from past uses. Until it is deleted,
+          it should remember all of the items.
+        </p>
+      </div>
+    </div>
+    <footer class="contact">
+      <h1 class="contact-me" id="contact">Contact Me</h1>
+      <div class="links">
         <a href="https://twitter.com/daelan205"
           ><img class="twitter" src="images/twitter.png" alt="twitter"
         /></a>
         <a href="https://www.facebook.com/daelan.hollingsworth.104"
           ><img class="fb" src="images/fb.png" alt="facebook"
         /></a>
-        <a href=""
+        <a href="*****"
           ><img class="linked" src="images/linkedin.jpeg" alt="linkedin"
         /></a>
         <a href="https://www.instagram.com/d_l_h205/"
@@ -51,9 +166,9 @@
           ><img class="email" src="images/email.jpeg" alt="email me"
         /></a>
         <a href="https://github.com/dholl205"
-          ><img class="git" src="images/git.jpeg" alt="git"
+          ><img class="git" src="images/git.png" alt="git"
         /></a>
-      </p>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

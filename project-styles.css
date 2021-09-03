@@ -1,39 +1,3 @@
-html {
-  background-color: black;
-  font-family: "Times New Roman", Times, serif;
-  color: white;
-  padding-bottom: 7em;
-}
-.header {
-  background-color: white;
-  padding-top: 0.25em;
-  padding-left: 1em;
-  max-height: 20em;
-}
-.head {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.headlink {
-  text-decoration: none;
-  font-size: 2em;
-  color: black;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
-}
-.headlink:hover {
-  text-decoration: none;
-  font-weight: bolder;
-  color: rgb(207, 33, 241);
-}
-.daelan {
-  display: flex;
-  justify-content: center;
-  font-size: 4em;
-  color: rgb(207, 33, 241);
-}
 .h {
   display: flex;
   justify-content: center;
@@ -44,6 +8,9 @@ html {
   font-size: 1.7em;
   line-height: 2em;
 }
+.cardname {
+  color: rgb(104, 1, 104);
+}
 .text {
   font-size: 1.7em;
   line-height: 2em;
@@ -51,10 +18,11 @@ html {
 .card {
   max-width: 40%;
   padding: 2em;
+  background-color: #a7a0a0;
 }
 .images {
   max-width: 90%;
-  border: 2px solid rgb(207, 33, 241);
+  border: 2px solid rgb(5, 5, 5);
   display: flex;
   justify-content: center;
 }
@@ -108,7 +76,7 @@ html {
 }
 .contact-me {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 3em;
   line-height: 1.6;
   padding: 2em;
@@ -117,58 +85,46 @@ html {
 .links {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: 5em;
+  justify-content: space-around;
 }
 .twitter {
-  max-width: 10%;
-  padding: 3em;
-}
-.fb {
-  max-width: 9%;
-  padding: 3em;
-}
-.linked {
-  max-width: 9%;
-  padding: 3em;
-}
-.insta {
-  max-width: 9%;
-  padding: 3em;
-}
-.email {
-  max-width: 13%;
-  padding: 3em;
-}
-.git {
-  max-width: 17%;
-}
-.git:hover {
-  max-width: 20%;
+  max-width: 4em;
 }
 .twitter:hover {
-  max-width: 13%;
+  max-width: 5em;
+}
+.fb {
+  max-width: 4em;
 }
 .fb:hover {
-  max-width: 12%;
+  max-width: 5em;
 }
-.linked:hover {
-  max-width: 12%;
+.insta {
+  max-width: 4em;
 }
 .insta:hover {
-  max-width: 12%;
+  max-width: 5em;
+}
+.email {
+  max-width: 5em;
 }
 .email:hover {
-  max-width: 15%;
+  max-width: 6em;
+}
+.git {
+  max-width: 4em;
+}
+.git:hover {
+  max-width: 5em;
+}
+.linked {
+  max-width: 4em;
+  border-radius: 15px;
+}
+.linked:hover {
+  max-width: 5em;
 }
 @media screen and (max-width: 750px) {
-  .daelan {
-    font-size: 3em;
-  }
-  .head {
-    font-size: 0.5em;
-    padding-bottom: 2em;
-  }
   .h {
     font-size: 3em;
   }
@@ -187,28 +143,5 @@ html {
   .card {
     max-width: 75%;
     align-self: center;
-  }
-  twitter {
-    max-width: 13%;
-    padding: 3em;
-  }
-  .fb {
-    max-width: 12%;
-    padding: 3em;
-  }
-  .linked {
-    max-width: 12%;
-    padding: 3em;
-  }
-  .insta {
-    max-width: 12%;
-    padding: 3em;
-  }
-  .email {
-    max-width: 15%;
-    padding: 3em;
-  }
-  .git {
-    max-width: 20%;
   }
 }

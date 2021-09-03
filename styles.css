@@ -41,74 +41,32 @@ html {
   padding-top: 1.5em;
   font-size: 2em;
 }
+.know {
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 .what-know {
+  background-color: black;
   display: flex;
   justify-content: center;
   line-height: 1.6;
   font-size: 3em;
 }
-.know {
+.skill {
   display: flex;
   justify-content: center;
   font-size: 2em;
   line-height: 1.6;
   padding: 2em;
 }
-.contact-me {
-  display: flex;
-  justify-content: center;
-  font-size: 3em;
-  line-height: 1.6;
-  padding: 2em;
-  padding-bottom: 1em;
+.contact {
+  background-color: black;
+  color: white;
+  padding-bottom: 2em;
 }
-.links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 5em;
-}
-.twitter {
-  max-width: 10%;
-  padding: 3em;
-}
-.fb {
-  max-width: 9%;
-  padding: 3em;
-}
-.linked {
-  max-width: 9%;
-  padding: 3em;
-}
-.insta {
-  max-width: 9%;
-  padding: 3em;
-}
-.email {
-  max-width: 13%;
-  padding: 3em;
-}
-.git {
-  max-width: 17%;
-}
-.git:hover {
-  max-width: 20%;
-}
-.twitter:hover {
-  max-width: 13%;
-}
-.fb:hover {
-  max-width: 12%;
-}
-.linked:hover {
-  max-width: 12%;
-}
-.insta:hover {
-  max-width: 12%;
-}
-.email:hover {
-  max-width: 15%;
-}
+
 .projects {
   display: flex;
   justify-content: center;
@@ -136,9 +94,6 @@ html {
     font-size: 1em;
   }
   .projects {
-    font-size: 2em;
-  }
-  .contact-me {
     font-size: 2em;
   }
 }
