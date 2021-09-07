@@ -145,4 +145,41 @@
     align-self: center;
     margin-top: 2em;
   }
+  .twitter {
+    max-width: 2em;
+  }
+  .twitter:hover {
+    max-width: 3em;
+  }
+  .fb {
+    max-width: 2em;
+  }
+  .fb:hover {
+    max-width: 3em;
+  }
+  .insta {
+    max-width: 2em;
+  }
+  .insta:hover {
+    max-width: 3em;
+  }
+  .email {
+    max-width: 3em;
+  }
+  .email:hover {
+    max-width: 4em;
+  }
+  .git {
+    max-width: 2em;
+  }
+  .git:hover {
+    max-width: 3em;
+  }
+  .linked {
+    max-width: 2em;
+    border-radius: 3px;
+  }
+  .linked:hover {
+    max-width: 3em;
+  }
 }

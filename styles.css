@@ -35,11 +35,17 @@ html {
 .about-m {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   line-height: 1.6;
   padding: 2em;
   padding-top: 1.5em;
   font-size: 2em;
+}
+.about-h {
+  display: flex;
+  justify-content: center;
 }
 .know {
   background-color: black;
@@ -83,18 +89,24 @@ html {
   justify-content: space-between;
 }
 .python {
-  width: 15em;
+  width: 9em;
 }
 .html {
-  width: 11em;
+  width: 7em;
 }
 .css {
-  max-width: 10em;
+  max-width: 7em;
 }
 .gitlogo {
   max-width: 7em;
 }
-
+.pic {
+  max-width: 10em;
+  display: flex;
+  padding: 2em;
+  border-radius: 40em;
+  align-content: center;
+}
 @media screen and (max-width: 750px) {
   .daelan {
     font-size: 3em;
