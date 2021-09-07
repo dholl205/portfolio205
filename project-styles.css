@@ -143,5 +143,6 @@
   .card {
     max-width: 75%;
     align-self: center;
+    margin-top: 2em;
   }
 }

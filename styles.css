@@ -76,6 +76,25 @@ html {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
+.i-know {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.python {
+  width: 15em;
+}
+.html {
+  width: 11em;
+}
+.css {
+  max-width: 10em;
+}
+.gitlogo {
+  max-width: 7em;
+}
+
 @media screen and (max-width: 750px) {
   .daelan {
     font-size: 3em;
@@ -95,5 +114,25 @@ html {
   }
   .projects {
     font-size: 2em;
+  }
+  .python {
+    max-width: 4em;
+    padding: 0.5em;
+  }
+  .html {
+    max-width: 3em;
+    padding: 0.5em;
+  }
+  .css {
+    max-width: 3em;
+    padding: 0.5em;
+  }
+  .gitlogo {
+    max-width: 3em;
+    padding: 0.5em;
+  }
+  .i-know {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
