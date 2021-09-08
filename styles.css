@@ -107,6 +107,7 @@ html {
   border-radius: 40em;
   align-content: center;
 }
+
 @media screen and (max-width: 750px) {
   .daelan {
     font-size: 3em;
@@ -146,5 +147,8 @@ html {
   .i-know {
     display: flex;
     justify-content: space-evenly;
+  }
+  .contact {
+    font-size: 0.7em;
   }
 }

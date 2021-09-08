@@ -132,6 +132,19 @@
 .linked:hover {
   max-width: 5em;
 }
+.page {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  text-decoration: none;
+  color: rgb(104, 1, 104);
+  padding: 1em;
+  font-weight: bold;
+}
+.page:hover {
+  font-size: 3.5em;
+  color: black;
+}
 @media screen and (max-width: 750px) {
   .h {
     font-size: 3em;
@@ -152,6 +165,15 @@
     max-width: 75%;
     align-self: center;
     margin-top: 2em;
+  }
+  .cardname {
+    font-size: 2em;
+  }
+  .page {
+    font-size: 2em;
+  }
+  .page:hover {
+    font-size: 2.5em;
   }
   .twitter {
     max-width: 2em;
