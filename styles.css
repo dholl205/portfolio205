@@ -107,7 +107,9 @@ html {
   border-radius: 40em;
   align-content: center;
 }
-
+body {
+  margin: 0;
+}
 @media screen and (max-width: 750px) {
   .daelan {
     font-size: 3em;
