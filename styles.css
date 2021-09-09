@@ -103,15 +103,15 @@ html {
 }
 .html {
   width: 7em;
-  .5em
+  padding: 0.5em;
 }
 .css {
   max-width: 7em;
-  .5em
+  padding: 0.5em;
 }
 .gitlogo {
   max-width: 7em;
-  padding: .5em;
+  padding: 0.5em;
 }
 .pic {
   max-width: 10em;
@@ -172,16 +172,16 @@ body {
   .django {
     max-width: 4em;
   }
-  .java{
+  .java {
     max-width: 4em;
   }
-  .js{
+  .js {
     max-width: 3.5em;
   }
-  .spring{
+  .spring {
     max-width: 8em;
   }
-  .sql{
+  .sql {
     max-width: 6em;
   }
 }
