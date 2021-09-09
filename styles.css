@@ -85,20 +85,33 @@ html {
 .i-know {
   padding: 3em;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
+.boot {
+  max-width: 14em;
+  padding: 0.5em;
+}
+.sql {
+  max-width: 12em;
+  padding: 0.5em;
+}
 .python {
   width: 9em;
+  padding: 0.5em;
 }
 .html {
   width: 7em;
+  .5em
 }
 .css {
   max-width: 7em;
+  .5em
 }
 .gitlogo {
   max-width: 7em;
+  padding: .5em;
 }
 .pic {
   max-width: 10em;
@@ -152,5 +165,23 @@ body {
   }
   .contact {
     font-size: 0.7em;
+  }
+  .boot {
+    max-width: 5em;
+  }
+  .django {
+    max-width: 4em;
+  }
+  .java{
+    max-width: 4em;
+  }
+  .js{
+    max-width: 3.5em;
+  }
+  .spring{
+    max-width: 8em;
+  }
+  .sql{
+    max-width: 6em;
   }
 }
