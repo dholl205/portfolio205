@@ -3,7 +3,7 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 .header {
-  background-color: black;
+  background-color: white;
   padding-top: 1em;
   padding-left: 1em;
   max-height: 20em;
@@ -17,7 +17,7 @@ html {
 .headlink {
   text-decoration: none;
   font-size: 2em;
-  color: white;
+  color: black;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
@@ -33,6 +33,8 @@ html {
   color: rgb(207, 33, 241);
 }
 .about-m {
+  color: black;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -45,16 +47,18 @@ html {
 }
 .about-h {
   display: flex;
+  background-color: black;
   justify-content: center;
+  color: white;
 }
 .know {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 .what-know {
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
   line-height: 1.6;
@@ -67,10 +71,23 @@ html {
   line-height: 1.6;
   padding: 2em;
 }
-.contact {
+.willknow {
   background-color: black;
   color: white;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.will_know {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  line-height: 1.6;
+  font-size: 3em;
+}
+.will_learn {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
 }
 
 .projects {
@@ -90,12 +107,21 @@ html {
   justify-content: space-between;
 }
 .boot {
-  max-width: 14em;
+  max-width: 12em;
+  padding: 0.5em;
+}
+.django {
+  max-width: 8em;
   padding: 0.5em;
 }
 .sql {
-  max-width: 12em;
+  max-width: 10em;
   padding: 0.5em;
+}
+.will_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .python {
   width: 9em;
