@@ -33,7 +33,7 @@ html {
   color: rgb(207, 33, 241);
 }
 .about-m {
-  color: black;
+  color: white;
   background-color: black;
   display: flex;
   flex-wrap: wrap;
