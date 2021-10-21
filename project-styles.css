@@ -43,6 +43,7 @@
   padding-bottom: 1em;
 }
 .links {
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -83,6 +84,7 @@
   justify-content: space-evenly;
 }
 .contact-me {
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
   font-size: 3em;
