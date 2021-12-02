@@ -2,6 +2,10 @@ html {
   background-color: white;
   font-family: "Times New Roman", Times, serif;
 }
+.contact{
+  background-color: black;
+  color: white;
+}
 .header {
   background-color: white;
   padding-top: 1em;
