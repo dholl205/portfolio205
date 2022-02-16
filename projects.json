@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Tik Tac Toe",
+    "type": ["Java"],
+    "link": "https://github.com/dholl205/TikTacToe",
+    "desc": "This Project was made to help learn Java, as it showed how to use basic functions, classes, and arrays. I would probably fix it to be smaller if I had known more about it. My progress was to watch a tutorial and after watching it attempt it myself, without coding it with the video. I was stuck on how to make the numbers and arrays line up, so I paused coding to watch the video again."
+  },
+  {
+    "name": "Store Product Manager",
+    "type": ["Java"],
+    "link": "https://github.com/dholl205/Java_Unit_Project",
+    "desc": "Java was a good unit that we learned. This was the unit project where we just demonstrate that we understand it. I created a product manager similar to what I believe stores would have. It was difficult to try it without a team. I was stuck on multiple processes like how to connect to a database that already existed, how to add to the database through Java, update and delete to a database through Java, and how to use variables in the queries for the database. The way that I learned how to do this was to try to use the documentation on JDBC, but I couldn't really get a grasp on it. I ended up asking for help to understand it. If I was to do it again, I wouldn't create all of the 'functions' in the Main class, wait till the end to make new classes, and change where the 'functions' are in specific classes, instead I would create new classes for each category from the beginning."
+  },
+  {
+    "name": "Weather and Shop",
+    "type": ["JavaScript", "Html, CSS"],
+    "link": "https://github.com/dholl205/ShopAndWeather/blob/main/weather.js",
+    "desc": "For this website, Justin Ashmore and I thought to create a shop and weather page using API's because seasons can contribute to what you want to buy, and weather can make you wear certain items. I created the weather page of it, but I deleted the API key because I am not paying a monthly fee for API use. It taught us how to properly use an API. This was fun, but challenging because we had to learn API usages. If I could do it differently, I would try to find a different API to use, one that's free. We did use a Trello board to plot the process out."
+  },
+  {
+    "name": "Red the Goat",
+    "type": ["Html, CSS"],
+    "link": "https://github.com/dholl205/Red-the-GOAT",
+    "desc": "Red the Goat was made as a unit project for Html and CSS. The most difficult thing to me and that I still struggle with is CSS. This project was fun to do because I have liked the character Red from Pokèmon ever since I found the anime and manga. For this project, I kind of just jumped into it without preparation, which made it not be as nice to look at than I'd like."
+  },
+  {
+    "name": "Fake Charity",
+    "type": ["Html, CSS"],
+    "link": "https://github.com/dholl205/charity-project",
+    "desc": "Fake Charity was one of the first Html and CSS pages we created. It taught me how to use Html and CSS along with color schemes. I just jumped into this one too, which again turned out less than what I wanted. The main problem was trying to get the links to link up right, so to fix it I asked for some help understanding how to link them up. If I could do it differently, I would choose different layouts, colors, photos, logos, and use something like a Trello board."
+  },
+  {
+    "name": "Dungeon Again",
+    "type": ["Python"],
+    "link": "https://replit.com/@dholl205/DungeonAgain#main.py",
+    "desc": "Dungeon Again was another team unit project with Ryan Bennett. This was made in Python and helped to deepen the understanding of using python and classes in python. One thing that I learned from it was that you can't just rush a project if you expect a good one. There were many mistakes that required us to move code around to fix. If we were to do it again, I would make sure we use something like Trello to plan how we are going to create it."
+  },
+  {
+    "name": "Inventory Manager",
+    "type": ["Python"],
+    "link": "https://replit.com/@dholl205/inventory-management#inventory.txt",
+    "desc": "The Inventory Manager was a personal project that I created to help the Management team at BaseCampCodingAcademy. It was a simple project that I am proud of because the Management team used it for a good half of a year."
+  },
+  {
+    "name": "Random Names",
+    "type": ["Python"],
+    "link": "https://replit.com/@dholl205/random-generator-for-names#main.py",
+    "desc": "This is another simple project that helps with choosing a random name from a list. I learned how to use the random choose function to  choose a random string.  I have found out that even though it is supposed to be random, it chooses the same few from an entire list."
+  },
+  {
+    "name": "Die Roller",
+    "type": ["Python"],
+    "link": "https://replit.com/@dholl205/DieRoller#main.py",
+    "desc": "This simple project is, at the basics, a number picker. It chooses a number, 1 - whatever number you choose, and I created this project to try to help some friends that needed random numbers a lot. This project taught me how to use the random integer in Python."
+  },
+  {
+    "name": "LOZ Explorer",
+    "type": ["Python"],
+    "link": "https://replit.com/@BCCA2022/Unit-1-Unit-Project-BCCA2022-3#main.py",
+    "desc": "This was a team unit project in Python created with Jacen Barefoot where the player can choose areas to goto, battle, and complete tasks to get new 'abilities'. This helped to teach how to work on code in teams, use new Python techniques, and to help better understand Python. If we were to do it differently, I would make sure that we use Trello, clean the code up a lot more, and add new features. We got a little stuck on how to have lists in the class, so we looked online, and asked for help."
+  }
+]
