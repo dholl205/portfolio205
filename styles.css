@@ -6,6 +6,7 @@ body {
   width: fit-content;
 }
 .navBox {
+  z-index: 10;
   background-color: rgba(251, 69, 251, 0.792);
   color: black;
   display: flex;
@@ -32,6 +33,8 @@ body {
   font-size: 1.5em;
 }
 .project {
+  overflow: hidden;
+  position: relative;
   background-color: aqua;
   color: black;
   margin: 3px;
@@ -39,6 +42,15 @@ body {
   margin-bottom: 5%;
   border-radius: 5%;
 }
+
+.projImage {
+  position: inherit;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -141,104 +153,9 @@ body {
 .picture {
   width: 15em;
   border-radius: 1em;
-  margin-left: 38.5%;
+  margin-left: 37.5%;
   margin-bottom: 2em;
 }
 .about {
   font-size: 1.5em;
-}
-
-@media only screen and (max-width: 900px) {
-  html {
-    display: flex;
-    justify-content: space-between;
-  }
-  .center {
-    width: 75%;
-  }
-  .columns {
-    width: 10%;
-  }
-  .name {
-    font-size: 5vw;
-  }
-  .lang {
-    width: 7vw;
-    margin-left: 50%;
-  }
-  .know {
-    width: 20px;
-    font-size: 2vw;
-  }
-  .icons {
-    width: 5px;
-  }
-  .cons {
-    width: 6vw;
-    margin-left: 75%;
-  }
-  .git {
-    margin-left: 75%;
-  }
-  .picture {
-    width: 40%;
-    margin-left: 27%;
-  }
-  .about {
-    font-size: 3vw;
-  }
-  .know01 {
-    margin-left: -20%;
-    font-size: 3vw;
-  }
-  .contact {
-    margin-left: 0%;
-    font-size: 3vw;
-  }
-  .python {
-    margin-left: 50%;
-  }
-  .django {
-    margin-left: 50%;
-  }
-  .javascript {
-    margin-left: 10%;
-  }
-  .spring {
-    margin-left: 50%;
-  }
-  .java {
-    margin-left: 75%;
-  }
-  .title {
-    font-size: 8vw;
-  }
-  .type {
-    font-size: 3vw;
-  }
-  .projects {
-    display: flex;
-    flex-direction: column;
-  }
-  .project {
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-right: 15%;
-    padding-left: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-top: 1%;
-  }
-  .proj {
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-  .projDesc {
-    font-size: 2.5vw;
-  }
-  .projName {
-    font-size: 3vw;
-  }
 }

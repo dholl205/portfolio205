@@ -1,10 +1,6 @@
 var Types = document.getElementById("type")
 Types.addEventListener("change", load)
-if (document.readyState == "loading") {
-  first()
-} else {
-  first()
-}
+first()
 
 function first() {
   var idk = document.getElementsByClassName("projects")[0]
@@ -18,6 +14,7 @@ function first() {
         var project = document.createElement("div")
         project.classList.add("project")
         var card = `
+            <img class="projImage" src="${d.image}">
             <div class="proj">
               <div class="projName"><a href="${d.link}">${d.name}</a></div>
               <div class="projDesc">${d.desc}</div>
@@ -44,10 +41,11 @@ function load(e) {
           var project = document.createElement("div")
           project.classList.add("project")
           var card = `
-            <div class="proj">
-              <div class="projName"><a href="${d.link}">${d.name}</a></div>
-              <div class="projDesc">${d.desc}</div>
-            </div>`
+          <img class="projImage" src="${d.image}">
+          <div class="proj">
+            <div class="projName"><a href="${d.link}">${d.name}</a></div>
+            <div class="projDesc">${d.desc}</div>
+          </div>`
           project.innerHTML = card
           idk.append(project)
         })
@@ -66,10 +64,11 @@ function load(e) {
             var project = document.createElement("div")
             project.classList.add("project")
             var card = `
-              <div class="proj">
-                <div class="projName"><a href="${d.link}">${d.name}</a></div>
-                <div class="projDesc">${d.desc}</div>
-              </div>`
+            <img class="projImage" src="${d.image}">
+            <div class="proj">
+              <div class="projName"><a href="${d.link}">${d.name}</a></div>
+              <div class="projDesc">${d.desc}</div>
+            </div>`
             project.innerHTML = card
             idk.append(project)
           }
@@ -89,10 +88,11 @@ function load(e) {
             var project = document.createElement("div")
             project.classList.add("project")
             var card = `
-              <div class="proj">
-                <div class="projName"><a href="${d.link}">${d.name}</a></div>
-                <div class="projDesc">${d.desc}</div>
-              </div>`
+            <img class="projImage" src="${d.image}">
+            <div class="proj">
+              <div class="projName"><a href="${d.link}">${d.name}</a></div>
+              <div class="projDesc">${d.desc}</div>
+            </div>`
             project.innerHTML = card
             idk.append(project)
           }
@@ -112,10 +112,11 @@ function load(e) {
             var project = document.createElement("div")
             project.classList.add("project")
             var card = `
-              <div class="proj">
-                <div class="projName"><a href="${d.link}">${d.name}</a></div>
-                <div class="projDesc">${d.desc}</div>
-              </div>`
+            <img class="projImage" src="${d.image}">
+            <div class="proj">
+              <div class="projName"><a href="${d.link}">${d.name}</a></div>
+              <div class="projDesc">${d.desc}</div>
+            </div>`
             project.innerHTML = card
             idk.append(project)
           }
@@ -135,10 +136,11 @@ function load(e) {
             var project = document.createElement("div")
             project.classList.add("project")
             var card = `
-              <div class="proj">
-                <div class="projName"><a href="${d.link}">${d.name}</a></div>
-                <div class="projDesc">${d.desc}</div>
-              </div>`
+            <img class="projImage" src="${d.image}">
+            <div class="proj">
+              <div class="projName"><a href="${d.link}">${d.name}</a></div>
+              <div class="projDesc">${d.desc}</div>
+            </div>`
             project.innerHTML = card
             idk.append(project)
           }
